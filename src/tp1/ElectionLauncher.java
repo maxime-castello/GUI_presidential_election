@@ -20,14 +20,14 @@ public class ElectionLauncher {
 	public static void main(String[] args) {
 
 		File g=new File("");
-		String imageAccueil = g.getAbsolutePath()+"\\images\\felixCat.gif" ; // ‡ personnaliser
+		String imageAccueil = g.getAbsolutePath()+"/gif/felixCat.gif" ; // ‡ personnaliser
 		
 		Election election = new Election();
 		
 		JFrame frame;
 		Dimension dim = Toolkit.getDefaultToolkit().getScreenSize();
 		dim.height -= 30;
-		frame = new ElectionGui("RÈsultat des Èlections", election, imageAccueil);
+		frame = new ElectionGui("Résultat des élections", election, imageAccueil);
 		
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
