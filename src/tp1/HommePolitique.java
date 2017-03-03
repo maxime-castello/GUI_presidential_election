@@ -1,9 +1,6 @@
 package tp1;
 
-/**
- * @author francoise.perrin
- *
- */
+
 public class HommePolitique implements Comparable<HommePolitique>, Cloneable {
 
 	private Civilite civilite;

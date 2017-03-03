@@ -15,13 +15,6 @@ import java.util.Map.Entry;
 
 
 /**
- * @author francoise.perrin
- * Inspiration MOOC sur Coursera "Introduction ‡ la POO (en Java)"
- * by Jamila Sam, Jean-CÈdric Chappelier - EPFL 
- */
-
-
-/**
  * Classe pour tester la simulation
  */
 
